@@ -3,5 +3,5 @@
 
 
 nums=list(map(int, input("Введите список чисел через пробел: ").split()))
-K= int(input('Введите число, на сколько надо сдвинуть'))%len(nums1)
+K= int(input('Введите число, на сколько надо сдвинуть'))%len(nums)
 print(nums[K:]+nums[:K])
